@@ -1,33 +1,42 @@
 <html>
     <head>
         <title>Ryan Kim's Portfolio</title>
+        <link rel="stylesheet" type="text/css" href="./css/portfolio.css">
     </head>
 
     <body>
-        <header>
-            <nav>
-                <li><a href="./index.html">Home</a></li>
-                <li><a href="./project_list.html">Project List</a></li>
-                <li><a href="./resume.html">Resume</a></li>
-            </nav>
-        </header>
+        <div class="main-wrapper">
+            <header class ="header">
+                <nav class="nav">
+                    <ul>
+                        <li class="navItem"><a href="./index.html">Home</a></li>
+                        <li class="navItem"><a href="./project_list.html">Project List</a></li>
+                        <li class="navItem"><a href="./resume.html">Resume</a></li>
+                    </ul>
+                </nav>
+            </header>
 
-        <section>
-            <img src="foundvisa.png" style="width:228px;height:228px;">
-            <img src="profile_pic.jpg" style="width:340px;height:228px;">
-            <h1> A passionate iOS developer located in SF </h1>
-        </section>
+                <section class="flex column">
+                    <div class="flex column">
+                        <!-- <img src="foundvisa.png" style="width:228px;height:228px;"> -->
+                        <img class="logo" src="https://goo.gl/RG3GtK">
+                        <img class= "main-img circle" src="profile_pic.jpg" style="width:500px;height:500px;">
+                    </div>
+                    <div class="flex column titles">
+                        <h1 class="main title"> Hello, I'm Ryan Kim </h1>
+                        <h2 class="sub title"> A passionate iOS developer located in SF </h2>
+                    </div>
+                </section>
+        </div>
 
-
-        <footer>
-            <h3>
-                Title for bottom section
-            </h3>
-            <a href="./resume.pdf" download="Ryan Kim Resume">Download Resume Here </a>
-            <button type="submit" onclick="window.open('resume.pdf')">Download!</button>
-            <!-- <button download>
-                Download Resume here
-            </button> -->
-        </footer>
+            <footer class="footer">
+                <div class ="flex">
+                    <div class="line"></div>
+                        <h3 class="footer-sub title">About</h3>
+                    <div class="line"></div>
+                </div>
+                <a href="./resume.pdf" download="Ryan Kim Resume" class="button">Download Resume Here</a>
+            </footer>
+        </div>
     </body>
 </html>
