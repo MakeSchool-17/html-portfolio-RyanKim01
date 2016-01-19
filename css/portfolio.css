@@ -63,7 +63,7 @@
 
 
 .main-img {
-     margin-top: -54px;
+     /*margin-top: -54px;*/
      max-width: 100%;
      height: auto;
    }
@@ -81,6 +81,7 @@ a {
  }
 
 .logo {
+    margin-top: 4%;
     z-index: 2;
     width: 100px;
 }
@@ -100,9 +101,16 @@ a {
 }
 
 .footer-sub {
+
      font-size: 30px;
      text-align: center;
    }
+
+   .footer-sub2 {
+       margin-top: 4%;
+        font-size: 30px;
+        text-align: center;
+      }
 
 .project_title {
     font-size: 30px;
@@ -113,7 +121,8 @@ a {
 
 .nav {
     margin-top: 12px;
-   margin-left: 10%;
+    margin-left: 10%;
+    text-align: right;
 }
 
 .navItem {
@@ -148,6 +157,14 @@ a {
      margin-left: 1%;
      margin-right: 1%;
    }
+
+   .line2 {
+        border-top: 1px solid #828282;
+        width: 100%;
+        margin-left: 1%;
+        margin-right: 1%;
+        margin-top: 4%;
+      }
 
 .main-wrapper {
     min-height: calc(100vh - 126px);
