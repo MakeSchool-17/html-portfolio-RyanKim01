@@ -167,6 +167,28 @@ display: flex;         /* NEW, Spec - Firefox, Chrome, Opera */
 align-items: center;
 }
 
+.input-field {
+    color: #FFFFFF;
+    background-color: #535353;
+     width: 80%;
+     max-width: 700px;
+     margin: 1%;
+     line-height: 2em;
+     padding: 6px;
+     font-size: 1em;
+     border-radius: 3px;
+     border: solid 2px #FFFFFF;
+   }
+
+.input-field:hover {
+    border: solid 2px #FFFFFF;
+}
+
+.contact-title {
+    font-size: 30px;
+    text-align: center;
+}
+
 .column {
      flex-direction: column;
    }

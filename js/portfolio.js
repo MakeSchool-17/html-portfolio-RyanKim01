@@ -3,6 +3,7 @@ $( document ).ready(function() {
     rowHeight : 300,
     // lastRow : 'justify',
     margins : 10,
+    lastRow: 'center',
     randomize: true
   }).on('jg.complete', function () {
       $('#gallery a').swipebox({
@@ -14,6 +15,7 @@ $( document ).ready(function() {
   $("#gallery2").justifiedGallery({
     rowHeight : 300,
     margins : 10,
+    lastRow: 'center',
     randomize: true
   }).on('jg.complete', function () {
       $('#gallery2 a').swipebox({
