@@ -180,10 +180,6 @@ align-items: center;
      border: solid 2px #FFFFFF;
    }
 
-.input-field:hover {
-    border: solid 2px #FFFFFF;
-}
-
 .contact-title {
     font-size: 30px;
     text-align: center;
