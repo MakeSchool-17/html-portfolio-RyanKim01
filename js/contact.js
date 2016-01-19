@@ -14,7 +14,7 @@ $( document ).ready(function() {
         }).error(function(x, status, error){
             alert('Uh oh, something went wrong. Please try again.');
         }). success(function(data, status) {
-            alert('Thank you for your message. Kitty will get back to you soon.');
+            alert('Thank you for your message. Ryan will get back to you soon.');
             $('form').find('.email, .message').val('');
         });
     });
